@@ -1,6 +1,5 @@
 import string
 
-
 def is_balanced(expression):
     sample = []  
 
@@ -10,8 +9,8 @@ def is_balanced(expression):
         elif item in ')]}':
             if not sample:
                 return False
-            top = sample.pop()
-            if (top == '(' and item != ')') or (top == '[' and item != ']') or (top == '{' and item != '}'):
+            new = sample.pop()
+            if (new == '(' and item != ')') or (new == '[' and item != ']') or (new == '{' and item != '}'):
                 return False
 
     return not sample
