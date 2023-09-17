@@ -25,11 +25,11 @@ This is a function that takes a list and returns a new sequence with duplicates 
 
 Sample input:
 
-    `input_sequence = [2, 3, 2, 4, 5, 3, 6, 7, 5]`
+    input_sequence = [2, 3, 2, 4, 5, 3, 6, 7, 5]
 
 Output:
 
-    `[2, 3, 4, 5, 6, 7]`
+    [2, 3, 4, 5, 6, 7]
 
 ### Question 3: word_frequency(sentence)
 
@@ -37,13 +37,13 @@ This is a function that takes a sentence and returns a dictionary containing the
 
 Sample input:
 
-    `sentence = "This is a test sentence. This sentence is a test."
+    sentence = "This is a test sentence. This sentence is a test."
     result = word_frequency(sentence)
-    print(result)`
+    print(result)
 
 Sample output:
 
-    `{'this': 2, 'is': 2, 'a': 2, 'test': 2, 'sentence': 2}`
+    {'this': 2, 'is': 2, 'a': 2, 'test': 2, 'sentence': 2}
 
 
 ## Conclusion 
