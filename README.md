@@ -3,7 +3,7 @@
 This repository contains Python code for three different functions:
 
 - `is_balanced(expression)`: Determines whether an expression containing parentheses, curly braces, and square brackets is balanced.
-- `remove_duplicates(sequence)`: Removes duplicates from a sequence (list or tuple) while maintaining the original order of elements.
+- `remove_duplicates(list)`: Removes duplicates from a list while maintaining the original order of elements.
 - `word_frequency(sentence)`: Returns a dictionary containing the frequency of each word in a sentence, ignoring punctuation and considering words in a case-insensitive manner.
   
 ## Stacks 
@@ -14,10 +14,10 @@ An expression is considered balanced if each opening bracket has a corresponding
 
 Sample input:
 
-    `expression1 = "([]{})"
+    expression1 = "([]{})"
     expression2 = "([)]"
     print(is_balanced(expression1))   Output: True
-    print(is_balanced(expression2))   Output: False`
+    print(is_balanced(expression2))   Output: False
 
 ### Question 2: remove_duplicates(sequence)
 
