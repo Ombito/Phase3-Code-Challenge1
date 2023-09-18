@@ -18,11 +18,6 @@ expression = "([], [)"
 print(is_balanced(expression))
 
 
-
-#function remove_duplicates(list)
-#initialize list
-#convert list to set using the set() function
-#print the new set
 def remove_duplicates(list):
     list = [2, 3, 2, 4, 5, 3, 6, 7, 5]
     new_list = set(list)
@@ -30,13 +25,6 @@ def remove_duplicates(list):
 remove_duplicates(list)
 
 
-
-#function word_frequency(sentence)
-#remove punctuation from sentence and convert it to lowercase
-#split the sentence into words
-#initialize dictionary
-#using if conditional statement check for word frequency
-# print result 
 def word_frequency(sentence):
     sentence = sentence.translate(str.maketrans('', '', string.punctuation)).lower()
     letters = sentence.split()
